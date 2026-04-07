@@ -29,6 +29,7 @@ How I used it: This prompt helped me plan out all six interactive features for t
 Entry #7 Tool Used: Claude AI Prompt: "How to add animation or like hover? Like when you point the cursor to the education box, it will levitate something like that? I also want this to add on the other sections." 
 AI Output Summary: Claude recommended using CSS transition with transform: translateY(-3px) and a subtle box-shadow on :hover to create a smooth "lift" effect. 
 How I used it: I applied the hover transition and translateY transform to .edu-item, .project-item, .skill-tag, .contact-list li, and the nav buttons — giving a consistent levitation effect across all interactive elements.
+
 Entry #8 Tool Used: Claude AI Prompt: "How to add a shadow?" 
 AI Output Summary: Claude explained the box-shadow CSS property and provided example values using rgba() for soft, natural-looking shadows. 
 How I used it: I added box-shadow to the .section-card elements for a subtle depth effect, and used stronger shadows on :hover states for the education and project cards to enhance the lift animation.
